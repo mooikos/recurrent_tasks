@@ -1,0 +1,10 @@
+# Operative System Files
+
+## Mac
+/**/*.DS_Store
+
+# Development Files
+
+## Local Builds
+/builds/**/*
+!/builds/.gitkeep
