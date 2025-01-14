@@ -29,17 +29,8 @@ Uninstall
 
 ## Release
 
-In order to have your changes available you need to:
-
-- Create a Pull Request that include below changes (or aggregate them with your changes)
-  - Bump the aruba version in `lib/recurrent_tasks/version.rb` (try to follow [semantic versioning](https://semver.org))
-  - Run `bundle` (which will regenerate the `Gemfile.lock`)
-- Get the Pull Request approved and merged.
-- Create and Publish the new tag based on the version by:
-  - Switching locally to `main` branch and pulling the update version that was merged above
-  - Run `bundle exec rake tags:create`.
-
-Now you will be able to update the needed tag in the repositories needing it.
+In order to have your changes available you need to push the gem:
+- `gem push builds/recurrent_tasks.gem` (assuming you builded it like described above)
 
 ## Final Notes
 
