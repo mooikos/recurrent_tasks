@@ -1,9 +1,9 @@
 # support parsing time frequency from the tasks
 time_frequency_parser = RecurrentTasks::TimeFrequencyParser.new
 
-task_files_directory = 'tasks'
+task_files_directory = 'recurrent_tasks'
 task_files_paths = Dir["#{task_files_directory}/**/*"]
-puts "WARNING: no tasks declared in directory '#{task_files_directory}'" if task_files_paths.empty?
+puts "WARNING: no recurrent tasks declared in directory '#{task_files_directory}'" if task_files_paths.empty?
 
 task_files_paths.each do |task_file_path|
   task_file = File.open task_file_path

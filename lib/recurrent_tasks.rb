@@ -6,3 +6,4 @@ module RecurrentTasks
 end
 
 require_relative 'recurrent_tasks/base_spec'
+require_relative 'recurrent_tasks/version'

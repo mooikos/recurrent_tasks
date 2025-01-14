@@ -22,6 +22,8 @@ Gem::Specification.new do |spec|
 
   # debugger
   spec.add_development_dependency 'pry-byebug', '~> 3'
+  # tasks runner
+  spec.add_development_dependency 'rake'
   # static analyzer
   spec.add_development_dependency 'rubocop', '~> 1'
 end
